@@ -116,7 +116,7 @@ $ ./mind -l 5 -m riscv input.c
 
 1. 你需要使用 `make` 来编译实验框架，你可以在下方仓库的 `src/` 目录下手动 `make`，或者直接运行脚本 `bash ./prepare.sh`。
 
-2. 按照 `./minidecaf-test/README` 的指导运行测试，测试运行的 **输出结果** 大致如下：
+2. 按照 [测例仓库](https://github.com/decaf-lang/minidecaf-tests) README 的指导运行测试，测试运行的 **输出结果** 大致如下：
 
    ```
    $ STEP_FROM=1 STEP_UNTIL=12 ./check.sh
